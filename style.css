@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  padding: 0% 5%;
+}
+
+#left {
+  width: 90%;
+  float: left;
+}
+#right {
+  width: 10%;
+  padding-top: 2%;
+  float: right;
+}
+ul {
+  padding-left: 8%;
+}
+li {
+  display: inline-block;
+  padding-right: 20px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.5;
+}
+#consult {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+#build {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3.5em;
+  color: black;
+  text-transform: capitalize;
+  padding: 5% 10%;
+  padding-bottom: 0;
+  font-weight: bolder;
+}
+#build span {
+  color: rgb(255, 166, 0);
+}
+#secondcontainer {
+  height: 60vh;
+  width: 100%;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: row;
+}
+#secondcontainertext {
+  width: 35%;
+  color: black;
+  text-align: justify;
+  padding-right: 5%;
+  padding-left: 1%;
+}
+.freeconsultation {
+  background-color: orange;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 10%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#secondcontainerimage {
+  width: 80%;
+  padding-left: 5%;
+}
+
+#thirdcontainerheading {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+}
+
+#thirdcontainer {
+  display: flex;
+  padding: 0 10%;
+  height: 60vh;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+.flexitem {
+  width: 22%;
+}
+#fourthcontainer {
+  display: flex;
+  height: 80vh;
+  padding: 5% 10% 10% 10%;
+  justify-content: space-around;
+  align-items: center;
+}
+#fourthcontainer h3 {
+  font-size: 1.85em;
+}
+#leftside {
+  width: 50%;
+}
+#rightside {
+  width: 50%;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+#fourthcontainer h6 {
+  font-size: 1.5em;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#fourthcontainer p {
+  padding-top: 1%;
+}
+#fifth {
+  background-color: whitesmoke;
+  padding: 5% 10% 10% 10%;
+}
+#fifth h3 {
+  font-size: 1.85em;
+  text-transform: capitalize;
+}
+
+#fifth span {
+  font-size: 6em;
+  color: orange;
+  padding-left: 30%;
+}
+#fifth p {
+  text-align: right;
+}
+#fifth b {
+  text-align: right;
+}
+
+#sixth {
+  padding: 3% 10%;
+  display: flex;
+  justify-content: space-between;
+}
+#sixthright {
+  padding-left: 10%;
+}
+#sixth h2 {
+  font-size: 2em;
+}
+#sixth span {
+  color: orange;
+}
+@media screen and (max-width: 1240px) {
+  h1 {
+    font-size: 1em;
+  }
+  ul {
+    padding-left: 0%;
+  }
+  #secondcontainer {
+    flex-direction: column-reverse;
+    height: 100vh;
+  }
+  #secondcontainerimage {
+    padding-bottom: 5%;
+    width: 100%;
+  }
+  #secondcontainertext {
+    width: 100%;
+    text-align: center;
+  }
+  #thirdcontainer {
+    flex-flow: row wrap;
+    height: 90vh;
+    justify-content: space-between;
+  }
+  .flexitem {
+    width: 50%;
+    height: 35vh;
+  }
+  #fourthcontainer {
+    flex-direction: column;
+    height: 150vh;
+  }
+  #leftside {
+    width: 100%;
+  }
+  #rightside {
+    width: 100%;
+  }
+  #fifth {
+    width: 100%;
+  }
+  #sixth {
+    flex-direction: column;
+  }
+  #sixthright {
+    width: 100%;
+    text-align: center;
+  }
+  #sixthleft {
+    width: 100%;
+  }
+  #sixth button {
+    margin-top: 0;
+  }
+}
